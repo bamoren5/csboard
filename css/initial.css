@@ -1,0 +1,90 @@
+﻿body {font-family: Arial;
+   overflow-x: hidden;
+   overflow-y: hidden;
+  background-color: rgb(42, 43, 42);
+  
+  }
+  
+.backimg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 1175px;
+	height: 700px;
+}
+
+.login{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 1175px;
+  height: 700px;
+  text-align: center;
+	
+
+}
+
+.test{
+    display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+ input[type=submit]{
+	display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  margin: 5px;
+  cursor: pointer;
+ }
+ 
+ input[type=text], input[type=password]{
+ border-radius: 3px;
+  border: none;
+  height: 25px;
+  padding: 5px;
+  font-size: 16px;
+ }
+ 
+ .logbtn{
+	display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  width: 80px;
+  margin: 5px;
+  cursor: pointer;
+  
+ }
+ 
+ .loglink{
+ color: #f4511e;
+   text-decoration: none;
+
+ 
+ }
+ 
+.loglink a:hover  {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size:50px;
+  }
+ }

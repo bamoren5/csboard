@@ -1,0 +1,158 @@
+﻿body{
+	background: -webkit-gradient(linear, left bottom, right top, from(#FFFFFF), to(#00BFFF));
+	width: 975px;
+	margin-left: auto; 
+	margin-right: auto; 
+	font-family: Verdana; 
+}
+
+/*BANNER----------------------------------*/
+div.banner{
+width: 975px;
+	margin-top: 5px; 
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+div.banner img{
+	width:975px;	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color:black;
+}
+
+
+/*TOP NAV----------------------------------*/
+div.topnav{
+	height: 50px; 
+	margin-top:-20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: 	#FF7F50;
+}
+
+div.topnav li{
+	display: inline-block;
+   	text-align: center;  
+	float:left; 
+}
+.mainbtn {
+	background-color: white; 
+    color: 	black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 39.75px; 
+    width: 162.5px;
+    font-family: Verdana;
+}
+
+.mainbtn:hover{
+	background-color: #00BDFF; 
+	color: white; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 162px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius:10px;
+	z-index: 1; 
+}
+
+.dropdown-content a {
+    color: white;
+    display: block;
+    padding:10px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+	background-color: gray; 
+	color: yellow; 
+	
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/*BODY CONTENT----------------------------*/
+
+div.main{
+	width: 955px;
+	margin-left: auto; 
+	margin-right: auto;
+	background-color: white;
+	border-radius: 10px; 
+	padding: 10px;
+}
+div.main p{
+	margin-top:0px; 
+	padding: 20px;   
+	color: black;
+	line-height: 125%; 
+}
+
+/*FOOTER-------------------------------------*/
+div.footer{ 
+	height: 105px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: black;
+	font-weight: bold;  
+	color: white; 
+	text-align: center; 
+	margin-top: -20px;  
+	padding-top: 15px;  
+	padding-bottom: 30px;
+}
+/*ALL NAV & JS---------------------------*/
+ul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+.showdrop {
+	display:block;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  color: black;
+  margin-left: auto; 
+	margin-right: auto; 
+	border: none;
+  
+  
+}
+table a {
+  text-decoration: none;
+  color: black;
+}
+table a:link {
+  text-decoration: none;
+}
+
+table a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+table a:hover {
+  color: white;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+tr:hover {background-color:#f5f5f5;}
